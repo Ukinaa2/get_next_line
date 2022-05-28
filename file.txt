@@ -1,0 +1,10 @@
+
+987
+
+
+6543210
+tudo bem com
+vc printando as
+linhas
+\0
+teste
