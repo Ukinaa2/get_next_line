@@ -6,12 +6,11 @@
 /*   By: gguedes <gguedes@student.42.rio>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 10:05:57 by gguedes           #+#    #+#             */
-/*   Updated: 2022/05/30 12:32:39 by gguedes          ###   ########.fr       */
+/*   Updated: 2022/05/30 12:43:52 by gguedes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
 
 static char	*g_str;
 
