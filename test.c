@@ -6,7 +6,7 @@
 /*   By: gguedes <gguedes@student.42.rio>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 09:53:28 by gguedes           #+#    #+#             */
-/*   Updated: 2022/05/30 12:40:42 by gguedes          ###   ########.fr       */
+/*   Updated: 2022/05/31 16:04:47 by gguedes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,6 @@ int	main(int argc, char **argv)
 		i++;
 	}
 	close(fd);
+	printf("\n");
 	return (0);
 }

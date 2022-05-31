@@ -6,7 +6,7 @@
 /*   By: gguedes <gguedes@student.42.rio>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 10:53:09 by gguedes           #+#    #+#             */
-/*   Updated: 2022/05/31 13:41:19 by gguedes          ###   ########.fr       */
+/*   Updated: 2022/05/31 16:03:36 by gguedes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,11 +49,10 @@ char	*create_new_line(const char *str)
 	if (!str)
 		return (NULL);
 	i = 0;
-	while (str[i] && str[i] != '\n')
+	while (str[i] != '\n')
 		i++;
-	if (!str[i])
-		return (NULL);
-	new_str = (char *)malloc(i + 2 * sizeof(char));
+	i++;
+	new_str = (char *)malloc(i + 1 * sizeof(char));
 	if (!new_str)
 		return (NULL);
 	j = 0;
