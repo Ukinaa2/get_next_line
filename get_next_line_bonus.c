@@ -6,7 +6,7 @@
 /*   By: gguedes <gguedes@student.42.rio>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 10:05:57 by gguedes           #+#    #+#             */
-/*   Updated: 2022/06/03 13:39:07 by gguedes          ###   ########.fr       */
+/*   Updated: 2022/06/06 10:26:43 by gguedes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ char	*create_line(const char *str)
 	return (new_str);
 }
 
-char	*find_next_line(char *str)
+char	*find_next_line(const char *str)
 {
 	int	i;
 
@@ -48,7 +48,7 @@ char	*find_next_line(char *str)
 	while (str[i])
 	{
 		if (str[i] == '\n')
-			return (str + (i + 1));
+			return ((char *)(str + (i + 1)));
 		i++;
 	}
 	return (NULL);

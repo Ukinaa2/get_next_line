@@ -6,7 +6,7 @@
 /*   By: gguedes <gguedes@student.42.rio>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 10:10:16 by gguedes           #+#    #+#             */
-/*   Updated: 2022/06/03 13:21:55 by gguedes          ###   ########.fr       */
+/*   Updated: 2022/06/06 10:18:34 by gguedes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 char	*get_next_line(int fd);
 char	*check_new_line(int fd, char *str, char *buffer);
-char	*find_next_line(char *str);
+char	*find_next_line(const char *str);
 size_t	ft_strlen(const char *str);
 char	*create_line(const char *str);
 char	*ft_strjoin(const char *s1, const char *s2);
