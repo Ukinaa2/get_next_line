@@ -6,11 +6,11 @@
 /*   By: gguedes <gguedes@student.42.rio>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 10:05:57 by gguedes           #+#    #+#             */
-/*   Updated: 2022/06/06 10:26:43 by gguedes          ###   ########.fr       */
+/*   Updated: 2022/06/13 19:29:07 by gguedes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*create_line(const char *str)
 {

@@ -6,11 +6,11 @@
 /*   By: gguedes <gguedes@student.42.rio>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 10:53:09 by gguedes           #+#    #+#             */
-/*   Updated: 2022/06/06 10:24:56 by gguedes          ###   ########.fr       */
+/*   Updated: 2022/06/13 19:29:14 by gguedes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(const char *str)
 {
